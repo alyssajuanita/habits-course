@@ -45,7 +45,7 @@ export const SESSIONS: Session[] = [
     description:
       'This is where it all starts. Discover the heart behind everything—God wants a family, not just followers. Watch the full session, or jump in for the first 18 minutes and come back for the rest.',
     keyIdeas: [
-      'God's deepest desire is family, not religion.',
+      'God\'s deepest desire is family, not religion.',
       'Disciples are made, not just born—it requires intentional investment.',
       'The Great Commission begins with the heart of the Father.',
       'We replicate what we are, not just what we know.',
@@ -82,7 +82,7 @@ export const SESSIONS: Session[] = [
       'Prayer is the foundation of every disciple-making movement.',
       'Jesus modeled a life of prayer—especially before significant decisions.',
       'Praying for "persons of peace" opens doors that strategy alone never can.',
-      'A simple daily prayer rhythm connects you to God's mission.',
+      'A simple daily prayer rhythm connects you to God\'s mission.',
     ],
     reflectQuestions: [
       'How would you describe your current prayer life? Honest, routine, or struggling?',
@@ -95,7 +95,7 @@ export const SESSIONS: Session[] = [
         '"He told them, \'The harvest is plentiful, but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.\'"',
     },
     actionPrompt:
-      'Start a "Persons of Peace" prayer list—write down 3–5 people who don't yet know Jesus. Commit to praying for them by name every day this week.',
+      'Start a "Persons of Peace" prayer list—write down 3–5 people who don\'t yet know Jesus. Commit to praying for them by name every day this week.',
     resources: [
       { label: 'Disciple-Making Prayer Habits', url: '#' },
       { label: 'DMM Community', url: 'https://app.mightynetworks.com' },
@@ -116,7 +116,7 @@ export const SESSIONS: Session[] = [
       'Every believer is called to engage their world—not just full-time ministers.',
       '"Going" happens in your neighborhood, workplace, and family.',
       'Spiritual conversations can begin naturally with genuine curiosity and care.',
-      'Your story is a powerful bridge into someone else's story.',
+      'Your story is a powerful bridge into someone else\'s story.',
     ],
     reflectQuestions: [
       'What are your natural "mission fields"—the circles of life where you already spend time?',
@@ -149,12 +149,12 @@ export const SESSIONS: Session[] = [
       'A "person of peace" is someone God has already prepared to receive the gospel.',
       'Jesus sent disciples in pairs to find persons of peace (Luke 10).',
       'Signs of a person of peace: they welcome you, listen to you, and serve you.',
-      'When you find one, stay—don't hop from house to house.',
+      'When you find one, stay—don\'t hop from house to house.',
     ],
     reflectQuestions: [
       'Who in your life shows signs of being a person of peace—open, receptive, and spiritually curious?',
       'Have you ever moved on too quickly from someone God was drawing toward Himself?',
-      'How can you become more sensitive to the Holy Spirit's leading in your daily encounters?',
+      'How can you become more sensitive to the Holy Spirit\'s leading in your daily encounters?',
     ],
     scripture: {
       reference: 'Luke 10:5–6',
@@ -183,7 +183,7 @@ export const SESSIONS: Session[] = [
       'Discovery Bible Study lets Scripture speak for itself—you facilitate, God teaches.',
       'The method is simple enough that anyone can immediately share it with others.',
       'DBS works with seekers, new believers, and mature Christians.',
-      'Reproducibility is the key: if you can't pass it on, it's not a movement.',
+      'Reproducibility is the key: if you can\'t pass it on, it\'s not a movement.',
     ],
     reflectQuestions: [
       'Have you ever studied the Bible with someone who was exploring faith for the first time? What was it like?',
@@ -214,10 +214,10 @@ export const SESSIONS: Session[] = [
     description:
       'When people come to faith, they need community. This session shows you how to gather new believers into simple, multiplying churches—wherever they are.',
     keyIdeas: [
-      'Church is not a building—it's a community of disciples who follow Jesus together.',
+      'Church is not a building—it\'s a community of disciples who follow Jesus together.',
       'Simple church can happen in homes, workplaces, and neighborhoods.',
       'The early church gathered and multiplied at a remarkable pace (Acts 2).',
-      'Healthy churches reproduce—they don't just grow inward.',
+      'Healthy churches reproduce—they don\'t just grow inward.',
     ],
     reflectQuestions: [
       'What does "church" mean to you? How has that definition been shaped—or challenged—by this course?',
@@ -248,15 +248,15 @@ export const SESSIONS: Session[] = [
     description:
       'The final habit—and the one that makes it all a movement. This session ties everything together and challenges you to become someone who not only makes disciples, but makes disciple-makers.',
     keyIdeas: [
-      'A disciple who doesn't make disciples is not yet a fully-formed disciple.',
+      'A disciple who doesn\'t make disciples is not yet a fully-formed disciple.',
       'Multiplication is the New Testament norm—not the exception.',
-      'The goal isn't your growth; it's a movement that reaches people you'll never meet.',
+      'The goal isn\'t your growth; it\'s a movement that reaches people you\'ll never meet.',
       '"Faithful and available" matters more than gifted and polished.',
     ],
     reflectQuestions: [
       'Looking back over the past 7 weeks, what has shifted most in how you think about discipleship?',
       'Who are you pouring into right now? Who could you begin to pour into?',
-      'What is the one habit from this course you most need to strengthen? What's your plan?',
+      'What is the one habit from this course you most need to strengthen? What\'s your plan?',
     ],
     scripture: {
       reference: '2 Timothy 2:2',
@@ -264,7 +264,7 @@ export const SESSIONS: Session[] = [
         '"And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others."',
     },
     actionPrompt:
-      'Write out your personal "Disciple-Making Plan": one person you're praying for, one person you're engaging, and one person you're beginning to equip. Share it with your coaching circle.',
+      'Write out your personal "Disciple-Making Plan": one person you\'re praying for, one person you\'re engaging, and one person you\'re beginning to equip. Share it with your coaching circle.',
     resources: [
       { label: 'Session Slides', url: '#' },
       { label: 'Coaching Circles', url: '#' },
