@@ -92,7 +92,7 @@ export const SESSIONS: Session[] = [
     scripture: {
       reference: 'Luke 10:2',
       text:
-        '"He told them, 'The harvest is plentiful, but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.'"',
+        '"He told them, \'The harvest is plentiful, but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.\'"',
     },
     actionPrompt:
       'Start a "Persons of Peace" prayer list—write down 3–5 people who don\'t yet know Jesus. Commit to praying for them by name every day this week.',
@@ -125,7 +125,7 @@ export const SESSIONS: Session[] = [
     ],
     scripture: {
       reference: 'John 20:21',
-      text: '"Again Jesus said, 'Peace be with you! As the Father has sent me, I am sending you.'"',
+      text: '"Again Jesus said, \'Peace be with you! As the Father has sent me, I am sending you.\'"',
     },
     actionPrompt:
       'Choose one "mission field" (workplace, neighborhood, gym, etc.) and intentionally look for one conversation opportunity this week. Come back ready to share what happened.',
@@ -159,7 +159,7 @@ export const SESSIONS: Session[] = [
     scripture: {
       reference: 'Luke 10:5–6',
       text:
-        '"When you enter a house, first say, 'Peace to this house.' If someone who promotes peace is there, your peace will rest on them; if not, it will return to you."',
+        '"When you enter a house, first say, \'Peace to this house.\' If someone who promotes peace is there, your peace will rest on them; if not, it will return to you."',
     },
     actionPrompt:
       'Revisit your prayer list from Session 2. Pray specifically for God to reveal which person is your "person of peace" right now. Take one step toward them this week.',
