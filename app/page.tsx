@@ -101,15 +101,19 @@ export default function Dashboard() {
       <nav className="border-b border-slate-800/60 bg-[#0a0f1e]/95 backdrop-blur sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <span className="text-teal-400 text-xl">⊕</span>
-            <span className="font-semibold text-white text-sm tracking-wide">Habits of Replicating Disciples</span>
+            <img
+              src="https://mercyalliance.org/wp-content/uploads/2026/01/MERCYALLIANCEWORDMARK_WMandLOGO-300x100.jpeg.webp"
+              alt="Mercy Alliance International"
+              className="h-8 w-auto bg-white rounded px-2 py-0.5"
+            />
           </div>
           <div className="flex items-center gap-3">
-            <a href="https://app.mightynetworks.com" target="_blank" rel="noopener"
+            <a href="https://network-10376509.mn.co/share/4ly4JW4EoMcWX-J-?utm_source=manual" target="_blank" rel="noopener"
               className="text-sm text-slate-400 hover:text-teal-400 transition-colors hidden sm:block">
               DMM Community
             </a>
-            <a href="#coaching" className="text-sm bg-teal-600 hover:bg-teal-500 text-white px-3 py-1.5 rounded-lg transition-colors">
+            <a href="https://mercyalliance.org/coaching-circle-registration/" target="_blank" rel="noopener"
+              className="text-sm bg-teal-600 hover:bg-teal-500 text-white px-3 py-1.5 rounded-lg transition-colors">
               Coaching Circles
             </a>
           </div>
@@ -120,11 +124,13 @@ export default function Dashboard() {
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-teal-950/30 to-transparent pointer-events-none" />
         <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12 text-center relative">
-          {/* Logo mark */}
+          {/* Logo */}
           <div className="flex justify-center mb-6">
-            <div className="w-20 h-20 rounded-full border-2 border-teal-500/40 bg-teal-950/30 flex items-center justify-center">
-              <span className="text-3xl">⊕</span>
-            </div>
+            <img
+              src="https://mercyalliance.org/wp-content/uploads/2026/01/MERCYALLIANCEWORDMARK_WMandLOGO-300x100.jpeg.webp"
+              alt="Mercy Alliance International"
+              className="h-20 w-auto bg-white rounded-2xl px-5 py-3 shadow-lg"
+            />
           </div>
 
           <p className="text-teal-400 text-sm font-semibold uppercase tracking-widest mb-3">
@@ -172,7 +178,7 @@ export default function Dashboard() {
               className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow-lg shadow-teal-900/30">
               {completedTotal > 0 ? '▶ Continue Your Journey' : '▶ Begin the Journey'}
             </Link>
-            <a href="https://app.mightynetworks.com" target="_blank" rel="noopener"
+            <a href="https://network-10376509.mn.co/share/4ly4JW4EoMcWX-J-?utm_source=manual" target="_blank" rel="noopener"
               className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-xl border border-slate-700/50 transition-colors">
               🌐 Join Our DMM Community
             </a>
@@ -203,9 +209,10 @@ export default function Dashboard() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12 text-center">
           <p className="text-slate-500 text-sm mb-4">Powered by Mercy Alliance</p>
           <div className="flex justify-center gap-6 text-sm mb-6">
-            <a href="https://app.mightynetworks.com" target="_blank" rel="noopener"
+            <a href="https://network-10376509.mn.co/share/4ly4JW4EoMcWX-J-?utm_source=manual" target="_blank" rel="noopener"
               className="text-teal-400 hover:text-teal-300 transition-colors">DMM Community</a>
-            <a href="#" className="text-teal-400 hover:text-teal-300 transition-colors">Coaching Circles</a>
+            <a href="https://mercyalliance.org/coaching-circle-registration/" target="_blank" rel="noopener"
+              className="text-teal-400 hover:text-teal-300 transition-colors">Coaching Circles</a>
             <a href="https://wa.me/" target="_blank" rel="noopener"
               className="text-teal-400 hover:text-teal-300 transition-colors">WhatsApp</a>
           </div>
