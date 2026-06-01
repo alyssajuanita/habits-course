@@ -40,11 +40,13 @@ function SessionCard({ session, completedSteps }: { session: typeof SESSIONS[0];
         }
         group-hover:shadow-lg group-hover:shadow-teal-900/20 group-hover:-translate-y-0.5
       `}>
-        {/* Session number badge */}
-        <div className={`absolute top-4 right-4 text-xs font-semibold px-2 py-1 rounded-full
-          ${done ? 'bg-green-800/60 text-green-300' : 'bg-slate-700/60 text-slate-400'}`}>
-          {done ? '✓ Complete' : started ? `${completedSteps}/${total}` : `Session ${session.id}`}
-        </div>
+        {/* Status badge */}
+        {(done || started) && (
+          <div className={`absolute top-4 right-4 text-xs font-semibold px-2 py-1 rounded-full
+            ${done ? 'bg-green-800/60 text-green-300' : 'bg-slate-700/60 text-slate-400'}`}>
+            {done ? '✓ Complete' : `${completedSteps}/${total} steps`}
+          </div>
+        )}
 
         <div className="p-6 flex items-start gap-4">
           {/* Progress ring */}
@@ -58,7 +60,7 @@ function SessionCard({ session, completedSteps }: { session: typeof SESSIONS[0];
           {/* Text */}
           <div className="flex-1 min-w-0 pt-1">
             <p className="text-xs font-medium text-teal-400 uppercase tracking-widest mb-1">
-              Session {session.id}
+              Habits of Replicating Disciples
             </p>
             <h3 className="text-lg font-bold text-white group-hover:text-teal-300 transition-colors leading-snug">
               {session.title}
@@ -189,8 +191,8 @@ export default function Dashboard() {
       {/* Sessions grid */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pb-20">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold text-white">Your 7-Week Journey</h2>
-          <span className="text-sm text-slate-500">{SESSIONS.filter(s => sessionProgress(s.id) === STEPS.length).length} of 7 complete</span>
+          <h2 className="text-xl font-bold text-white">Your Journey</h2>
+          <span className="text-sm text-slate-500">{SESSIONS.filter(s => sessionProgress(s.id) === STEPS.length).length} of {SESSIONS.length} complete</span>
         </div>
 
         <div className="grid gap-4">
