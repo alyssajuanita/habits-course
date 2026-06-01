@@ -40,7 +40,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '❤️',
     color: 'from-rose-700 to-rose-900',
-    videoUrl: 'https://www.youtube.com/embed/YcbH5HAdCKM',
+    videoUrl: 'https://www.youtube.com/embed/YcbH5HAdCKM?rel=0',
     videoDuration: '1:01:52',
     description:
       'This is where it all starts. Discover the heart behind everything—God wants a family, not just followers. Watch the full session, or jump in for the first 18 minutes and come back for the rest.',
@@ -74,7 +74,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '🙏',
     color: 'from-blue-700 to-blue-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/M_cF8HnUg1A?rel=0',
     videoDuration: '~60 min',
     description:
       'Prayer is the fuel that drives disciple-making movements. Watch this session before moving on—it will transform how you talk to God and how you pray for those around you.',
@@ -108,7 +108,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '🤝',
     color: 'from-emerald-700 to-emerald-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/voDqNUKhOAA?rel=0',
     videoDuration: '~60 min',
     description:
       'Going spiritually involves living openly as a disciple within your natural relationships. This session shows you how to engage your everyday world with intentionality—without being weird about it.',
@@ -141,7 +141,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '🔍',
     color: 'from-amber-600 to-amber-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/385S9vUsS0w?rel=0',
     videoDuration: '~60 min',
     description:
       'Jesus always looked for the "person of peace"—someone open, receptive, and connected. This session teaches you how to recognize and pursue those divine appointments.',
@@ -175,7 +175,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '📖',
     color: 'from-purple-700 to-purple-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/paM8Vh3Cyl4?rel=0',
     videoDuration: '~60 min',
     description:
       'Discovery Bible Study (DBS) is a simple, reproducible tool for helping anyone explore what the Bible says and respond to God. Learn how to facilitate it—even with people who have never opened a Bible.',
@@ -209,7 +209,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '⛪',
     color: 'from-cyan-700 to-cyan-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/6y4OdZHvaH8?rel=0',
     videoDuration: '~60 min',
     description:
       'When people come to faith, they need community. This session shows you how to gather new believers into simple, multiplying churches—wherever they are.',
@@ -243,7 +243,7 @@ export const SESSIONS: Session[] = [
     subtitle: 'Habits of Replicating Disciples',
     icon: '🌱',
     color: 'from-lime-700 to-lime-900',
-    videoUrl: '',
+    videoUrl: 'https://www.youtube.com/embed/8f64ErLIxWk?rel=0',
     videoDuration: '~60 min',
     description:
       'The final habit—and the one that makes it all a movement. This session ties everything together and challenges you to become someone who not only makes disciples, but makes disciple-makers.',
